@@ -1,0 +1,6 @@
+.div-bg {
+    height: 300px;
+    width: 300px;
+    border: 10px dashed #ddd;
+    background: green;
+}
