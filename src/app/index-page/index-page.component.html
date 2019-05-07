@@ -1,0 +1,28 @@
+<h3 class="aa">测试字体颜色</h3>
+<h3 class="bb">测试字体颜色</h3>
+
+
+<p>
+  index-page works!
+  <a routerLink="/test-page" routerLinkActive="active">testPage</a>
+</p>
+
+<app-tab>
+  <appPane id="1" *ngIf="shouldShow"></appPane>
+  <appPane id="2" *ngIf="!shouldShow"></appPane>
+  <appPane id="3"></appPane>
+
+  <appPane id="4" *ngIf="shouldShow">
+    <!-- <app-tab>
+      <appPane id="4_1"></appPane>
+      <appPane id="4_1"></appPane>
+    </app-tab> -->
+  </appPane>
+</app-tab>
+
+<!-- <button (click)="show()">Show 3</button> -->
+<button (click)="show()">Toggle</button>
+
+
+
+
